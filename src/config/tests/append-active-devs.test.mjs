@@ -4,7 +4,7 @@ import { getActiveDevelopers } from "../../jira/get-active-developers.mjs";
 
 const { appendActiveDevelopers } = mod;
 
-vi.mock("../jira/get-active-developers.mjs", () => ({
+vi.mock("../../jira/get-active-developers.mjs", () => ({
   getActiveDevelopers: vi.fn(),
 }));
 

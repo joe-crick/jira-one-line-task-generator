@@ -4,7 +4,7 @@ import { getRuntimeConfig } from "../../config/config.mjs";
 
 const { getAxiosConfig } = mod;
 
-vi.mock("../config/config.mjs", () => ({
+vi.mock("../../config/config.mjs", () => ({
   getRuntimeConfig: vi.fn(),
 }));
 
