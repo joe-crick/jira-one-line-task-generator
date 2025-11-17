@@ -2,3 +2,4 @@ node_modules
 .idea
 .env
 .task-gen.conf
+.DS_Store
